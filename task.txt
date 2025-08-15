@@ -1,0 +1,59 @@
+Welcome to the AI Engineer hiring process at Future Sportler!
+This document contains task options across team sports, allowing you to showcase your
+ability to build video-based AI models for movement, tactical, and biomechanical
+analysis.
+Each candidate must select ONLY ONE of the following tasks and submit a working
+model that:
+•
+Takes a video input
+•
+Performs pose estimation or detection
+•
+Outputs a 3D visualization video with insights and corrective feedback
+Top-performing submissions may be selected for product development or patent filing
+with full credit.
+Choose ONE of the following sports tasks to proceed:
+
+Task 3: Football – TacDcal & Technical Player EvaluaDon
+Analyze a football (soccer) player's performance across movement, passing, and
+defensive positioning.
+Key components to analyze include:
+•
+Ball Control & Dribbling: Foot-to-ball contact consistency, touch frequency, dribble
+path
+•
+Passing & Vision: Decision making based on teammate/defender layout, mispasses,
+through balls
+•
+Shooting Mechanics: Body lean, hip torque, contact timing, follow-through angle
+•
+Defensive Play: Press timing, marking effectiveness, tackle posture
+•
+Positioning & Transitions: Role adaptability, tracking back, reaction post possession
+loss
+•
+Set Piece Behavior: Movement during corners or free-kicks, marking assignments,
+aerial duel posture
+Reference Videos for EvaluaDon
+Use the following video folder containing 5 videos for football analysis
+
+
+Submission Guidelines & Notes
+•
+Use only the provided video set (one folder of 5 clips per sport).
+•
+Submit analytical output as:
+-
+3D rendered correction models
+•
+Highlight key features detected and provide reasoning wherever possible.
+•
+You may use tools/libraries such as OpenPose, MediaPipe, YOLO, TensorFlow, PyTorch,
+or any other relevant frameworks.
+•
+Emphasis will be placed on model generalizability, clarity of analysis, and
+presentation.
+•
+Only ONE sport task should be completed.
+•
+Top entries may be developed further and credited for IP filings.
