@@ -177,8 +177,6 @@ SAVE_ANNOTATED_VIDEO = True  # Save annotated video files
 
 - **`annotated_Video-5_adv_kmeans.mp4`** - Advanced KMeans team detection with ball tracking
 - **`fresh_start/output/annotated_Video-4_pro.mp4`** - Professional HUD overlay with metrics
-- **`fresh_start/output/annotated_Video-4_topdown.mp4`** - 3D top-down field visualization
-- **`fresh_start/output/annotated_Video-1_adv_kmeans.mp4`** - KMeans-enhanced team analysis
 
 ### Analysis Metrics
 
