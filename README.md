@@ -335,7 +335,6 @@ For questions, issues, or feature requests, please:
 - **MediaPipe** team at Google for pose estimation
 - **Ultralytics** for YOLOv11 object detection
 - **OpenCV** community for computer vision tools
-- **Future Sportler** for the AI engineering challenge
 
 ---
 
