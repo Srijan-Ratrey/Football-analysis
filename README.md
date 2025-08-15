@@ -51,6 +51,23 @@ An advanced AI-powered sports analytics platform for football/soccer performance
    # Copy your .mp4 video files to the video/ directory
    ```
 
+### 📓 Jupyter Notebook Analysis
+
+For interactive analysis and experimentation, use the comprehensive notebook:
+
+```bash
+cd fresh_start
+jupyter notebook analysis.ipynb
+```
+
+**Notebook Features:**
+- **Interactive Analysis**: Step-by-step video processing pipeline
+- **Advanced Ball Tracking**: Kalman filter + optical flow tracking
+- **Team Detection**: KMeans clustering for consistent team identification
+- **Multiple Analysis Modes**: Standard, advanced, and professional pipelines
+- **Real-time Visualization**: Live analysis with HUD overlays
+- **Top-down View**: 3D field mapping and trajectory analysis
+
 ### Basic Usage
 
 #### Standard Analysis
@@ -155,6 +172,13 @@ SAVE_ANNOTATED_VIDEO = True  # Save annotated video files
 - **Analysis Report**: `analysis_report_{video_name}.json` - Detailed metrics
 - **3D Visualization**: FIFA-quality 3D analysis videos
 - **Performance Charts**: Real-time visualization dashboard
+
+### 🎬 Demo Videos Available
+
+- **`annotated_Video-5_adv_kmeans.mp4`** - Advanced KMeans team detection with ball tracking
+- **`fresh_start/output/annotated_Video-4_pro.mp4`** - Professional HUD overlay with metrics
+- **`fresh_start/output/annotated_Video-4_topdown.mp4`** - 3D top-down field visualization
+- **`fresh_start/output/annotated_Video-1_adv_kmeans.mp4`** - KMeans-enhanced team analysis
 
 ### Analysis Metrics
 
@@ -329,6 +353,25 @@ For questions, issues, or feature requests, please:
 1. Check the troubleshooting section above
 2. Search existing issues
 3. Create a new issue with detailed information
+
+## 🎬 Demo Showcase
+
+### Available Demo Videos
+
+The repository includes several annotated videos demonstrating different analysis capabilities:
+
+- **`annotated_Video-5_adv_kmeans.mp4`** - Main demo showcasing advanced KMeans team detection
+- **Professional HUD Analysis** - Real-time metrics overlay with coaching insights
+- **3D Top-down Visualization** - Field mapping with player and ball trajectories
+- **Advanced Team Detection** - Consistent team identification across frames
+
+### Interactive Analysis
+
+Use the `fresh_start/analysis.ipynb` notebook to:
+- Process your own videos
+- Experiment with different analysis parameters
+- Generate custom annotated outputs
+- Analyze ball control and team dynamics
 
 ## 🏆 Acknowledgments
 
